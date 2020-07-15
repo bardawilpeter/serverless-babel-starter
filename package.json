@@ -9,7 +9,7 @@
     "deploy:production": "export NODE_ENV=production && yarn deploy:env",
     "deploy:stage": "export NODE_ENV=stage && yarn deploy:env",
     "lint": "eslint src --ext ts,js --no-ignore --fix",
-    "serve": "sls offline -P 8000",
+    "serve": "sls offline -P 4000",
     "serve:watch": "nodemon -e js,ts,jsx,tsx -x yarn serve",
     "tail:hello": "sls logs --function hello --tail",
     "test": "jest",

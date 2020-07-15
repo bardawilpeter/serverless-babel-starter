@@ -4,7 +4,7 @@ services:
   serverless-babel-starter:
     build: .
     ports:
-      - '8000:8000'
+      - '4000:4000'
     environment:
       - AWS_ACCESS_KEY_ID=YOUR_AWS_ACCESS_KEY
       - AWS_SECRET_ACCESS_KEY=YOUR_AWS_SECRET_KEY
