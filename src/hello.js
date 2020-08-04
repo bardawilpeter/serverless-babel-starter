@@ -4,7 +4,7 @@ const hello = async event => {
   // successResponse handles wrapping the response in an API Gateway friendly
   // format (see other responses, including CORS, in `./utils/lambda-response.js)
   const response = successResponse({
-    message: 'Go Serverless! Your function executed successfully!',
+    message: 'Go Serverless! Your function executed in the container!',
     input: event,
   });
 

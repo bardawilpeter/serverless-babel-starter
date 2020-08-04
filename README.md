@@ -203,6 +203,12 @@ yarn deploy:production
 After you've deployed, the output of the deploy script will give you the API endpoint
 for your deployed function(s), so you should be able to test the deployed API via that URL.
 
+### Run using docker
+
+```bash
+docker-compose up --build
+```
+
 ---
 
 🔬 A Labs project from your friends at [Postlight](https://postlight.com). Happy coding!
